@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Forms</title>
+</head>
+<body>
+    <table border="1">
+        <!-- table head (sütün)-->
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <!--Sıra-->
+        <tr>
+            <td>James Hetfield</td>
+            <td>100</td>
+            <td>Solist</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Lars Ulric</td>
+            <td>150</td>
+            <td>Battery</td>
+            <td>62</td>
+        </tr>
+    </table>
+
+
+    <br><br><br><br>
+
+    <form action="div.html">
+        <label for="email">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="password">Salary :</label>
+        <input type="text" id="salary" name="salary">
+        <br><br>
+        <input type="submit">
+    </form>
+    <br><br><br><br>
+    <form action="example2.html">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+        <br><br>
+        <label for="password">Passw :</label>
+        <input type="password" id="passw" name="passw" placeholder="Enter your password">
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    <br><br><br><br>
+    <form action="new.html">
+        <p>Star Wars vs Star Trek</p>
+        <label for="starwars">Starwars:</label>
+        <input type="radio" id="starwars" name="movie" value="starwars">
+        <br><br>
+        <label for="startrek">Startrek :</label>
+        <input type="radio" id="startrek" name="movie" value="startrek">
+        <br><br>
+        <br><br>
+        <input type="submit">
+
+    </form>
+    <br><br><br><br>
+    <form action="new.html">
+        <p>Rate Your Driver</p>
+        <select name="rating" id="rating">
+            <option>6</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        <br>
+        <input type="submit" value="Choose">
+        
+    </form>
+
+
+
+
+
+</body>
+</html>
